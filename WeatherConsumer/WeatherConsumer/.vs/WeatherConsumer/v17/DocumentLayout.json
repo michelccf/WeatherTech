@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherConsumer\\WeatherConsumer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD45042F-A3BC-4B04-B93C-E9A14399CD06}|WeatherConsumer.csproj|c:\\users\\michel\\onedrive\\documentos\\projetos\\weathertech\\weatherconsumer\\weatherconsumer\\services\\weatherconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD45042F-A3BC-4B04-B93C-E9A14399CD06}|WeatherConsumer.csproj|solutionrelative:services\\weatherconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherConsumerService.cs",
+              "DocumentMoniker": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherConsumer\\WeatherConsumer\\Services\\WeatherConsumerService.cs",
+              "RelativeDocumentMoniker": "Services\\WeatherConsumerService.cs",
+              "ToolTip": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherConsumer\\WeatherConsumer\\Services\\WeatherConsumerService.cs",
+              "RelativeToolTip": "Services\\WeatherConsumerService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T20:51:19.284Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
