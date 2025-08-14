@@ -1,4 +1,6 @@
-﻿using Polly;
+﻿using Microsoft.Extensions.Options;
+using Polly;
+using WeatherApi.Models.Configs;
 
 namespace WeatherApi.Extensions
 {
@@ -16,6 +18,23 @@ namespace WeatherApi.Extensions
                         handledEventsAllowedBeforeBreaking: 2,
                         durationOfBreak: TimeSpan.FromSeconds(30)
             ));
+        }
+
+        public static void AddRabbit(this IServiceCollection services, IConfiguration config)
+        {
+            services.Configure<RabbitMqSettings>(config.GetSection("RabbitMq"));
+
+            services.AddSingleton(sp =>
+            {
+                var settings = sp.GetRequiredService<IOptions<RabbitMqSettings>>().Value;
+                return new RabbitMQ.Client.ConnectionFactory
+                {
+                    HostName = settings.HostName,
+                    Port = settings.Port,
+                    UserName = settings.UserName,
+                    Password = settings.Password
+                };
+            });
         }
     }
 }

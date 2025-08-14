@@ -2,7 +2,7 @@
   {
     "ContainingType": "WeatherApi.Controllers.WeatherApiController",
     "Method": "Get",
-    "RelativePath": "WeatherApi",
+    "RelativePath": "WeatherApi/ProduceWeatherForecast",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -17,7 +17,6 @@
         ],
         "StatusCode": 200
       }
-    ],
-    "EndpointName": "GetWeatherForecast"
+    ]
   }
 ]

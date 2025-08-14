@@ -52,3 +52,5 @@ C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\WeatherApi\WeatherApi\b
 C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\WeatherApi\WeatherApi\bin\Debug\net8.0\Polly.Core.dll
 C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\WeatherApi\WeatherApi\bin\Debug\net8.0\Polly.Extensions.Http.dll
 C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\WeatherApi\WeatherApi\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\WeatherApi\WeatherApi\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\WeatherApi\WeatherApi\bin\Debug\net8.0\RabbitMQ.Client.dll

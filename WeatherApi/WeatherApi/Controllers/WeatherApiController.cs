@@ -19,10 +19,15 @@ namespace WeatherApi.Controllers
             _weatherService = weatherService;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
+        [HttpGet("ProduceWeatherForecast")]
         public async Task<ActionResult<WeatherEntity>> Get()
         {
-            return Ok(_weatherService.GetWeather());
+            WeatherEntity result = await _weatherService.GetWeather();
+
+            if (result != null)
+                return Ok(result);
+            else
+                return NoContent();
         }
     }
 }

@@ -5,12 +5,11 @@
     "version": "1.0"
   },
   "paths": {
-    "/WeatherApi": {
+    "/WeatherApi/ProduceWeatherForecast": {
       "get": {
         "tags": [
           "WeatherApi"
         ],
-        "operationId": "GetWeatherForecast",
         "responses": {
           "200": {
             "description": "OK",
@@ -38,20 +37,70 @@
   },
   "components": {
     "schemas": {
-      "Current": {
+      "CurrentWeather": {
         "type": "object",
         "properties": {
           "time": {
             "type": "string",
-            "format": "date-time"
+            "nullable": true
           },
-          "temperature_2m": {
+          "interval": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperature": {
             "type": "number",
             "format": "double"
           },
-          "wind_speed_10m": {
+          "windspeed": {
             "type": "number",
             "format": "double"
+          },
+          "winddirection": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "is_day": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "weathercode": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CurrentWeatherUnits": {
+        "type": "object",
+        "properties": {
+          "time": {
+            "type": "string",
+            "nullable": true
+          },
+          "interval": {
+            "type": "string",
+            "nullable": true
+          },
+          "temperature": {
+            "type": "string",
+            "nullable": true
+          },
+          "windspeed": {
+            "type": "string",
+            "nullable": true
+          },
+          "winddirection": {
+            "type": "string",
+            "nullable": true
+          },
+          "is_day": {
+            "type": "string",
+            "nullable": true
+          },
+          "weathercode": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -84,11 +133,14 @@
             "nullable": true
           },
           "elevation": {
-            "type": "integer",
-            "format": "int32"
+            "type": "number",
+            "format": "double"
           },
-          "current": {
-            "$ref": "#/components/schemas/Current"
+          "current_weather_units": {
+            "$ref": "#/components/schemas/CurrentWeatherUnits"
+          },
+          "current_weather": {
+            "$ref": "#/components/schemas/CurrentWeather"
           }
         },
         "additionalProperties": false

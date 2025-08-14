@@ -54,9 +54,17 @@
               "target": "Package",
               "version": "[9.0.8, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Polly": {
               "target": "Package",
               "version": "[8.6.2, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[7.1.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
