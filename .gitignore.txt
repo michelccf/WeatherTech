@@ -1,0 +1,153 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+
+# Visual Studio 2015/2017 cache/options directory
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Auto-generated files
+Generated\ Files/
+
+# Backup & report files from converting an old project file
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+ServiceFabricBackup/
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Build logs
+*.tlog
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# DotCover
+*.dotCover
+
+# Packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Azure Functions
+bin/
+obj/
+appsettings.local.json
+
+# Others
+*.dbmdl
+*.bak
+*.backup
+*.BLOB
+*.Cache
+*.swp
+*.tmp
+*.temp
+*.log
+
+# Rider
+.idea/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+
+# Visual Studio 2015/2017 cache/options directory
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Auto-generated files
+Generated\ Files/
+
+# Backup & report files from converting an old project file
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+ServiceFabricBackup/
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Build logs
+*.tlog
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# DotCover
+*.dotCover
+
+# Packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Azure Functions
+bin/
+obj/
+appsettings.local.json
+
+# Others
+*.dbmdl
+*.bak
+*.backup
+*.BLOB
+*.Cache
+*.swp
+*.tmp
+*.temp
+*.log
+
+# Rider
+.idea/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini

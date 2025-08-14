@@ -1,0 +1,98 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "WeatherApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/WeatherApi": {
+      "get": {
+        "tags": [
+          "WeatherApi"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/WeatherEntity"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WeatherEntity"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WeatherEntity"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Current": {
+        "type": "object",
+        "properties": {
+          "time": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "temperature_2m": {
+            "type": "number",
+            "format": "double"
+          },
+          "wind_speed_10m": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherEntity": {
+        "type": "object",
+        "properties": {
+          "latitude": {
+            "type": "number",
+            "format": "double"
+          },
+          "longitude": {
+            "type": "number",
+            "format": "double"
+          },
+          "generationtime_ms": {
+            "type": "number",
+            "format": "double"
+          },
+          "utc_offset_seconds": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "timezone": {
+            "type": "string",
+            "nullable": true
+          },
+          "timezone_abbreviation": {
+            "type": "string",
+            "nullable": true
+          },
+          "elevation": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "current": {
+            "$ref": "#/components/schemas/Current"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
