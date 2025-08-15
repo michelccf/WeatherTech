@@ -1,14 +1,26 @@
+using Microsoft.EntityFrameworkCore;
 using WeatherApi.Extensions;
+using WeatherConsumer.Models.Configs;
 using WeatherConsumer.Services;
+using WeatherConsumer.Util;
+using Microsoft.EntityFrameworkCore.Design;
+using WeatherConsumer.Interfaces.Repositories;
+using WeatherConsumer.Repositories;
+using WeatherConsumer.Interfaces.Services;
+using WeatherConsumer.Factorys;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
 
 builder.Services.AddControllers();
 builder.Services.AddRabbit(builder.Configuration);
 builder.Services.AddHostedService<WeatherConsumerService>();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddTransient<IWeatherReapository, WeatherReapository>();
+builder.Services.AddTransient<IScopedFactory, ScopedFactory>();
+
+string connectionString = builder.Configuration.GetSection("SqlConnection:ConnectionString").Value;
+
+builder.Services.AddDbContext<SqlDataContext>(options => options.UseSqlServer(connectionString));
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

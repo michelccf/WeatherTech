@@ -1,7 +1,12 @@
 ﻿
+using Newtonsoft.Json;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
+using WeatherApi.Models.Entities;
+using WeatherConsumer.Factorys;
+using WeatherConsumer.Interfaces.Services;
+using WeatherConsumer.Util;
 
 namespace WeatherConsumer.Services
 {
@@ -9,11 +14,13 @@ namespace WeatherConsumer.Services
     {
         private readonly ILogger<WeatherConsumerService> _logger;
         private readonly ConnectionFactory _factory;
+        private readonly IScopedFactory _scopedFactory;
 
-        public WeatherConsumerService(ConnectionFactory factory, ILogger<WeatherConsumerService> logger)
+        public WeatherConsumerService(ConnectionFactory factory, ILogger<WeatherConsumerService> logger, IScopedFactory scopedFactory)
         {
             _factory = factory;
             _logger = logger;
+            _scopedFactory = scopedFactory;
         }
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
@@ -59,12 +66,26 @@ namespace WeatherConsumer.Services
 
         private async Task OnMessageReceivedAsync(object sender, BasicDeliverEventArgs ea)
         {
-            var body = ea.Body.ToArray();
-            var message = Encoding.UTF8.GetString(body);
+            try
+            {
+                var body = ea.Body.ToArray();
+                var message = Encoding.UTF8.GetString(body);
 
-            _logger.LogInformation($"Mensagem recebida: {message}");
-            var channel = ((AsyncEventingBasicConsumer)sender).Channel;
-            await channel.BasicAckAsync(ea.DeliveryTag, multiple: false);
+                WeatherEntity x = JsonConvert.DeserializeObject<WeatherEntity>(message);
+
+                using IServiceScope scope = _scopedFactory.CreateScope();
+
+                scope.ServiceProvider.GetService<SqlDataContext>().Add(x);
+
+                await scope.ServiceProvider.GetService<SqlDataContext>().SaveChangesAsync();
+
+
+                _logger.LogInformation($"Mensagem recebida: {message}");
+                var channel = ((AsyncEventingBasicConsumer)sender).Channel;
+                await channel.BasicAckAsync(ea.DeliveryTag, multiple: false);
+            }
+            catch(Exception ex)
+            {}
          
         }
     }

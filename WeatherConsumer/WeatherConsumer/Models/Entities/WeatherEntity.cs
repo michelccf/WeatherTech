@@ -2,6 +2,7 @@
 {
     public class CurrentWeather
     {
+        public int Id { get; set; }
         public string time { get; set; }
         public int interval { get; set; }
         public double temperature { get; set; }
@@ -13,6 +14,7 @@
 
     public class CurrentWeatherUnits
     {
+        public int Id { get; set; }
         public string time { get; set; }
         public string interval { get; set; }
         public string temperature { get; set; }
@@ -24,6 +26,7 @@
 
     public class WeatherEntity
     {
+        public int Id { get; set; }
         public double latitude { get; set; }
         public double longitude { get; set; }
         public double generationtime_ms { get; set; }
