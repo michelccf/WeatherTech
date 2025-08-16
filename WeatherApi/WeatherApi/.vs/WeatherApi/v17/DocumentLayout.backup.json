@@ -11,8 +11,16 @@
       "RelativeMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|solutionrelative:services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|c:\\users\\michel\\onedrive\\documentos\\projetos\\weathertech\\weatherapi\\weatherapi\\interfaces\\imessagebroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|solutionrelative:interfaces\\imessagebroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|c:\\users\\michel\\onedrive\\documentos\\projetos\\weathertech\\weatherapi\\weatherapi\\repositories\\weatherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|solutionrelative:repositories\\weatherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|c:\\users\\michel\\onedrive\\documentos\\projetos\\weathertech\\weatherapi\\weatherapi\\interfaces\\iweatherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|solutionrelative:interfaces\\iweatherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|c:\\users\\michel\\onedrive\\documentos\\projetos\\weathertech\\weatherapi\\weatherapi\\controllers\\weatherapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|solutionrelative:controllers\\weatherapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|c:\\users\\michel\\onedrive\\documentos\\projetos\\weathertech\\weatherapi\\weatherapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,24 +31,12 @@
       "RelativeMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|c:\\users\\michel\\onedrive\\documentos\\projetos\\weathertech\\weatherapi\\weatherapi\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|solutionrelative:extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|c:\\users\\michel\\onedrive\\documentos\\projetos\\weathertech\\weatherapi\\weatherapi\\models\\configs\\rabbitmqsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|solutionrelative:models\\configs\\rabbitmqsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|c:\\users\\michel\\onedrive\\documentos\\projetos\\weathertech\\weatherapi\\weatherapi\\controllers\\weatherapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|solutionrelative:controllers\\weatherapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|c:\\users\\michel\\onedrive\\documentos\\projetos\\weathertech\\weatherapi\\weatherapi\\models\\entities\\weatherentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|solutionrelative:models\\entities\\weatherentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|c:\\users\\michel\\onedrive\\documentos\\projetos\\weathertech\\weatherapi\\weatherapi\\interfaces\\iweatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|solutionrelative:interfaces\\iweatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|c:\\users\\michel\\onedrive\\documentos\\projetos\\weathertech\\weatherapi\\weatherapi\\interfaces\\imessagebroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|solutionrelative:interfaces\\imessagebroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C71B0072-2EB2-415F-9FD4-595A86D82512}|WeatherApi.csproj|c:\\users\\michel\\onedrive\\documentos\\projetos\\weathertech\\weatherapi\\weatherapi\\weatherapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -54,11 +50,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IWeatherRepository.cs",
+              "DocumentMoniker": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Interfaces\\IWeatherRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IWeatherRepository.cs",
+              "ToolTip": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Interfaces\\IWeatherRepository.cs",
+              "RelativeToolTip": "Interfaces\\IWeatherRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:18:37.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "WeatherRepository.cs",
+              "DocumentMoniker": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Repositories\\WeatherRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\WeatherRepository.cs",
+              "ToolTip": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Repositories\\WeatherRepository.cs",
+              "RelativeToolTip": "Repositories\\WeatherRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:15:34.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IMessageBroker.cs",
               "DocumentMoniker": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Interfaces\\IMessageBroker.cs",
               "RelativeDocumentMoniker": "Interfaces\\IMessageBroker.cs",
@@ -74,60 +96,38 @@
               "Title": "MessageBroker.cs",
               "DocumentMoniker": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Services\\MessageBroker.cs",
               "RelativeDocumentMoniker": "Services\\MessageBroker.cs",
-              "ToolTip": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Services\\MessageBroker.cs",
-              "RelativeToolTip": "Services\\MessageBroker.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB8AAAATAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Services\\MessageBroker.cs*",
+              "RelativeToolTip": "Services\\MessageBroker.cs*",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvxUAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T18:22:57.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-14T18:15:53.99Z"
+              "WhenOpened": "2025-08-14T18:15:53.99Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RabbitMqSettings.cs",
-              "DocumentMoniker": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Models\\Configs\\RabbitMqSettings.cs",
-              "RelativeDocumentMoniker": "Models\\Configs\\RabbitMqSettings.cs",
-              "ToolTip": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Models\\Configs\\RabbitMqSettings.cs",
-              "RelativeToolTip": "Models\\Configs\\RabbitMqSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T18:15:38.712Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "IWeatherService.cs",
               "DocumentMoniker": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Interfaces\\IWeatherService.cs",
               "RelativeDocumentMoniker": "Interfaces\\IWeatherService.cs",
               "ToolTip": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Interfaces\\IWeatherService.cs",
               "RelativeToolTip": "Interfaces\\IWeatherService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T14:33:32.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WeatherEntity.cs",
-              "DocumentMoniker": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Models\\Entities\\WeatherEntity.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\WeatherEntity.cs",
-              "ToolTip": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Models\\Entities\\WeatherEntity.cs",
-              "RelativeToolTip": "Models\\Entities\\WeatherEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T14:27:15.948Z"
+              "WhenOpened": "2025-08-14T14:33:32.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -137,37 +137,27 @@
               "RelativeDocumentMoniker": "Services\\WeatherService.cs",
               "ToolTip": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Services\\WeatherService.cs",
               "RelativeToolTip": "Services\\WeatherService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvykAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T14:19:08.611Z"
+              "WhenOpened": "2025-08-14T14:19:08.611Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T13:52:30.182Z"
+              "WhenOpened": "2025-08-14T13:52:30.182Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServiceCollectionExtension.cs",
-              "DocumentMoniker": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Extensions\\ServiceCollectionExtension.cs",
-              "RelativeDocumentMoniker": "Extensions\\ServiceCollectionExtension.cs",
-              "ToolTip": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Extensions\\ServiceCollectionExtension.cs",
-              "RelativeToolTip": "Extensions\\ServiceCollectionExtension.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T14:10:03.53Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "WeatherApi.http",
               "DocumentMoniker": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\WeatherApi.http",
               "RelativeDocumentMoniker": "WeatherApi.http",
@@ -179,15 +169,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "WeatherApiController.cs",
               "DocumentMoniker": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Controllers\\WeatherApiController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherApiController.cs",
               "ToolTip": "C:\\Users\\michel\\OneDrive\\Documentos\\Projetos\\WeatherTech\\WeatherApi\\WeatherApi\\Controllers\\WeatherApiController.cs",
               "RelativeToolTip": "Controllers\\WeatherApiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T13:51:58.764Z"
+              "WhenOpened": "2025-08-14T13:51:58.764Z",
+              "EditorCaption": ""
             }
           ]
         }

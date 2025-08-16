@@ -4,6 +4,8 @@ namespace WeatherApi.Interfaces
 {
     public interface IWeatherService
     {
+        Task<WeatherEntity> ProduceWeather();
+
         Task<WeatherEntity> GetWeather();
     }
 }

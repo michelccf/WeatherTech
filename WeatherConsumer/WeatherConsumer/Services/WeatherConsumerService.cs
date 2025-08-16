@@ -3,10 +3,9 @@ using Newtonsoft.Json;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
+using Util.DbContextService;
+using Util.Interfaces;
 using WeatherApi.Models.Entities;
-using WeatherConsumer.Factorys;
-using WeatherConsumer.Interfaces.Services;
-using WeatherConsumer.Util;
 
 namespace WeatherConsumer.Services
 {

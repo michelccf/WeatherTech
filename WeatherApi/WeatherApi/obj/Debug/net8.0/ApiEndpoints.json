@@ -1,6 +1,26 @@
 [
   {
     "ContainingType": "WeatherApi.Controllers.WeatherApiController",
+    "Method": "GetWeather",
+    "RelativePath": "WeatherApi/GetWeather",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WeatherApi.Models.Entities.WeatherEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WeatherApi.Controllers.WeatherApiController",
     "Method": "Get",
     "RelativePath": "WeatherApi/ProduceWeatherForecast",
     "HttpMethod": "GET",

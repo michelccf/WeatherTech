@@ -1,10 +1,11 @@
 ﻿using Microsoft.Extensions.Options;
 using RabbitMQ.Client;
 using System.Text;
-using WeatherApi.Models.Configs;
+
 using WeatherApi.Models.Entities;
 using Newtonsoft.Json;
 using WeatherApi.Interfaces;
+using Util.Entities;
 
 namespace WeatherApi.Services
 {

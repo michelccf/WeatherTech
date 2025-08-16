@@ -22,6 +22,17 @@ namespace WeatherApi.Controllers
         [HttpGet("ProduceWeatherForecast")]
         public async Task<ActionResult<WeatherEntity>> Get()
         {
+            WeatherEntity result = await _weatherService.ProduceWeather();
+
+            if (result != null)
+                return Ok(result);
+            else
+                return NoContent();
+        }
+
+        [HttpGet("GetWeather")]
+        public async Task<ActionResult<WeatherEntity>> GetWeather()
+        {
             WeatherEntity result = await _weatherService.GetWeather();
 
             if (result != null)

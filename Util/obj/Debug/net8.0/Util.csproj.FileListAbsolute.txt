@@ -1,0 +1,15 @@
+C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\Util\obj\Debug\net8.0\Util.csproj.AssemblyReference.cache
+C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\Util\obj\Debug\net8.0\Util.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\Util\obj\Debug\net8.0\Util.AssemblyInfoInputs.cache
+C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\Util\obj\Debug\net8.0\Util.AssemblyInfo.cs
+C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\Util\obj\Debug\net8.0\Util.csproj.CoreCompileInputs.cache
+C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\Util\obj\Debug\net8.0\Util.sourcelink.json
+C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\Util\bin\Debug\net8.0\Util.deps.json
+C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\Util\bin\Debug\net8.0\Util.runtimeconfig.json
+C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\Util\bin\Debug\net8.0\Util.dll
+C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\Util\bin\Debug\net8.0\Util.pdb
+C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\Util\obj\Debug\net8.0\Util.dll
+C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\Util\obj\Debug\net8.0\refint\Util.dll
+C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\Util\obj\Debug\net8.0\Util.pdb
+C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\Util\obj\Debug\net8.0\Util.genruntimeconfig.cache
+C:\Users\michel\OneDrive\Documentos\Projetos\WeatherTech\Util\obj\Debug\net8.0\ref\Util.dll

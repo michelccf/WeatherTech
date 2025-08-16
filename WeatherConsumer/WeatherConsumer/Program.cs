@@ -1,13 +1,11 @@
 using Microsoft.EntityFrameworkCore;
 using WeatherApi.Extensions;
-using WeatherConsumer.Models.Configs;
 using WeatherConsumer.Services;
-using WeatherConsumer.Util;
-using Microsoft.EntityFrameworkCore.Design;
 using WeatherConsumer.Interfaces.Repositories;
 using WeatherConsumer.Repositories;
-using WeatherConsumer.Interfaces.Services;
-using WeatherConsumer.Factorys;
+using Util.DbContextService;
+using Util.Factorys;
+using Util.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 

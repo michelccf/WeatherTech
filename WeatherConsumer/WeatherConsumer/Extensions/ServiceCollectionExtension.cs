@@ -1,9 +1,6 @@
 ﻿using Microsoft.Extensions.Options;
 using RabbitMQ.Client;
-using WeatherApi.Models.Configs;
-using WeatherConsumer.Models.Configs;
-using WeatherConsumer.Util;
-using Microsoft.EntityFrameworkCore;
+using Util.Entities;
 
 namespace WeatherApi.Extensions
 {

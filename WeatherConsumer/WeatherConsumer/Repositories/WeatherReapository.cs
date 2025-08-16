@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Util.DbContextService;
 using WeatherApi.Models.Entities;
 using WeatherConsumer.Interfaces.Repositories;
-using WeatherConsumer.Util;
 
 namespace WeatherConsumer.Repositories
 {
